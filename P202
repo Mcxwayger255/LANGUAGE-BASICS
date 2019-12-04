@@ -1,0 +1,15 @@
+public class Demo
+{
+public static void main(String args[])
+{ int b= Integer.parseInt(args[0]);
+if( b%2==0)
+{
+System.out.println( "even");
+}
+     else
+{
+ System.out.println( "odd");
+}
+
+}
+}
