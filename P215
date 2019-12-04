@@ -1,0 +1,47 @@
+import java.util.*;
+class Demop214
+{
+public static void main (String [] args)
+ { 
+   Scanner sc = new Scanner(System.in);
+   int d= sc.nextInt();
+   if(d<=9999 && d>=1000)
+   {
+	   int sum=0; 
+	   for(int i=1;i<=4;i++)
+	   {
+		   int c= d/10;
+		   int b= d%10;
+		   sum=sum+c;
+	   }
+	   System.out.println(sum);
+   }
+   else if(d<=999 && d>=100)
+   {
+	   int sum2 =0; 
+	   for(int i=1;i<=3;i++)
+	   {
+		   int c= d/10;
+		   int b= d%10;
+		   sum2=sum2+c;
+	   } 
+	   System.out.println(sum2);
+   }
+   else if(d<=99 && d>=10)
+   {
+	   
+       int sum3 =0; 
+	   for(int i=1;i<=2;i++)
+	   {
+		   int c= d/10;
+		   int b= d%10;
+		   sum3= sum3 +c;
+	   } 	   
+	   System.out.println(sum3);
+   }
+   else if(d<=9 && d>=1)
+   {
+	  System.out.println(d); 
+   }
+ }	
+}
