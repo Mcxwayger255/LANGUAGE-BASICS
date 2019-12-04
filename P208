@@ -1,0 +1,40 @@
+import java.lang.*;
+import java.util.Scanner;
+class Demop28
+{
+public static void main (String [] args)
+ { 
+ 		//String b= ignoreCase(args[0]);
+		switch((args[0]).toUpperCase())
+		{
+		case "R":
+		{
+		System.out.println("Red");	
+		}
+		case "O":
+		{
+		System.out.println("Orange");	
+		}
+		case "y":
+		{
+			System.out.println("Yellow");
+		}
+		case "G":
+		{
+			System.out.println("Green");
+		}
+		case "B":
+		{
+		System.out.println("Blue");	
+		}
+		case "W":
+		{
+		System.out.println("White");	
+		}
+    default:
+    {
+    System.out.println("INVALID");
+    }
+	}	
+ }	
+}
