@@ -1,0 +1,25 @@
+class Demop212
+{
+public static void main (String [] args)
+ { 
+ 	Scanner sc= new Scanner(System.in);
+	double d= sc.nextDouble();
+	    double b= d/2;
+			flag=0;
+		for(int j=2;j<=b;j++)
+		{
+		   if(d%i==0)
+		   {
+		     flag=1;
+		   }	
+		}
+		if(flag==1)
+		   {
+		     system.out.println("Prime");
+		   }
+        else
+		{
+			system.out.println("Not prime");
+		}		   
+ }	
+}
