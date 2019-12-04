@@ -1,0 +1,32 @@
+import java.lang.*;
+import java.util.Scanner;
+class Demop26
+{
+public static void main (String [] args)
+ { 
+		if(args[0].equalsIgnoreCase("Female"))
+		{
+			double d= Double.parseDouble(args[1]);
+			if(d<=58)
+			{
+				System.out.println("Intersest==8.2% \n Genger ==>Female \n Age==>1 to 58");
+			}
+			else
+			{
+				System.out.println("Intersest==7.6% \n Genger ==>Female \n Age==>59 to 120");
+			}
+		}
+		 else if(args[0].equalsIgnoreCase("Male"))
+		{
+						double d= Double.parseDouble(args[1]);
+			if(d<=60)
+			{
+				System.out.println("Intersest==9.2% \n Genger ==>Male \n Age==>1 to 60");
+			}
+			else
+			{
+				System.out.println("Intersest==8.3% \n Genger ==>Male \n Age==>61 to 120");
+			}
+		}	
+	}
+ }
