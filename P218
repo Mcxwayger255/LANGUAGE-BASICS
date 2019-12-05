@@ -1,0 +1,26 @@
+import java.util.*;
+public class Demop218
+{
+ public static void main(String [] args)
+ {
+	    Scanner sc= new Scanner(System.in);
+        int num =sc.nextInt();
+		int test=num;
+		int reversed = 0;
+        while(num != 0) 
+		{
+            int d = num % 10;
+            reversed = reversed * 10 + d;
+            num /= 10;
+        }
+		if(test==reversed)
+		{
+			System.out.println("it is palindrome");
+		}
+        else 
+		{
+			System.out.println("it is not a palindrome");
+		}
+    
+  }
+}
