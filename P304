@@ -1,0 +1,16 @@
+import java.lang.*;
+class Demop304
+{
+public static void main(String [] args)
+{
+	int [] arr= new int[]{'1','a','3','4','6','2','7'};
+	
+	for(int i=0;i<7;i++)
+	{
+		char ch = (char)arr[i];
+        int ascii = ch;
+        int castAscii = (int) ch;
+		System.out.println("The ASCII value of " + ch + " is: " + ascii);	
+	}
+}
+}	
