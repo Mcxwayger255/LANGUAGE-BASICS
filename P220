@@ -1,0 +1,42 @@
+import java.util.*;
+import java.lang.*;
+import java.awt.*;
+public class Demop220
+{
+	public static void main (String [] args)
+	{
+        Scanner sc = new Scanner(System.in);
+		System.out.println("1.Add \n 2.Subtract ");
+		int b = sc.nextInt();
+		switch(b)
+		{
+			case 1:
+			{
+				System.out.println("Enter the two values ");
+				int c = sc.nextInt();
+				int d = sc.nextInt();
+				System.out.println("Sum is "+(c+d));
+			}
+			case 2:
+			{
+				System.out.println("Enter the two values ");
+				int e = sc.nextInt();
+				int f = sc.nextInt();
+				int v = Math.abs(e-f);
+				System.out.println("difference is "+v);
+			}
+		}
+		System.out.println("Want to continue");
+		String ans= sc.nextString();
+		String ch="y";
+		if(ans.equalsIgnoreCase(ch))
+		{
+			Demop220 dp=new Demop220();
+			dp();
+		}
+		else
+		{
+		
+		}
+	}
+}
