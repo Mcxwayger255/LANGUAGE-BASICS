@@ -1,0 +1,26 @@
+class Demop302
+{
+public static void main(String [] args)
+{
+	int [] arr= new int[]{1,81,3,4,6,22,34,2};
+	
+	for(int i=1;i<arr.length;i++)
+	{
+	int b= arr[0];
+	   if(arr[i]>b)
+	   {
+		   b=arr[i];
+	   }		   
+	}
+	System.out.println(b);
+	for(int j=1;j<=arr.length;j++)
+	{
+	int a= arr[0];
+	   if(arr[i]<a)
+	   {
+		   a=arr[i];
+	   }		   
+	}
+	System.out.println(a);
+}
+}
