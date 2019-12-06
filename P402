@@ -1,0 +1,23 @@
+class Calculator
+{
+	public static void powerInt(int h,int w)
+	{
+		int ans=(int)Math.pow(h,w);
+		System.out.println("power is "+ans);
+	}
+	
+	public static void powerDouble(double h,double w)
+	{
+		Double ans=(double)Math.pow(h,w);
+		System.out.println("power is "+ans);
+	}
+}
+
+public class Demop402
+{
+  public static void main(String [] args)
+  {
+	Calculator.powerInt(2,3);
+	Calculator.powerDouble(2,3);
+  }
+}
