@@ -1,0 +1,17 @@
+class Box
+{
+	public void volume(double h,double w,double d)
+	{
+		double volume= h*w*d;
+		System.out.println("Volume is "+volume);
+	}
+}
+
+public class Demop401
+{
+  public static void main(String [] args)
+  {
+	Box bb=new Box();
+    bb.volume(2,3,4);	
+  }
+}
