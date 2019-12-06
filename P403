@@ -1,0 +1,20 @@
+class Patient
+{
+	String name="Anna";
+	double weight;
+	double height;
+	
+	public void BMI(double weight,double height)
+	{
+		double bmi=weight/(Math.pow(height,2));
+		System.out.println("name "+name+"\n BMI"+bmi);
+	}
+}
+class Patients
+{
+	public static void main(String [] args)
+	{
+		Patient pt=new Patient();
+		pt.BMI(25,30);
+	}
+}
