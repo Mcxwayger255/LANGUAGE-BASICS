@@ -1,6 +1,6 @@
 class Box
 {
-	public void volume(double h,double w,double d)
+	public void box(double h,double w,double d)
 	{
 		double volume= h*w*d;
 		System.out.println("Volume is "+volume);
