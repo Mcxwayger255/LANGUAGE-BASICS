@@ -1,0 +1,63 @@
+class Author
+{
+	private String name;
+	private String email="JGRISHAM@GMAIL.COM";
+	private char Gender='f';
+	
+	Author(String name,String email,char Gender)
+	{
+		this.name=name;
+		this.Gender=Gender;
+		this.email=email;
+	}
+}
+class Book
+{
+	private String name="The testament";
+	private String Author="JOhn";
+	private double price;
+	private int qtyInStock;
+	
+	public String getName()
+	{
+		return name;
+	}
+	public String getAuthor()
+	{
+		return Author;
+	}
+	public double getPrice()
+	{
+	   return price;	
+	}
+	public void setPrice(double price)
+	{
+		this.price=price;
+	}
+	public int getQtyInStock()
+	{
+		return qtyInStock;
+	}
+	public void setQtyInStock(int getQtyInStock)
+	{
+		this.qtyInStock=qtyInStock;
+	}
+}
+class Demop500
+{
+	public static void main(String [] args)
+	{
+		Book bk=new Book();
+		Author ar=new Author("rgt","rg",'m');
+		bk.setPrice(12);
+		bk.setQtyInStock(120);
+		System.out.println(bk.getName());
+		System.out.println(bk.getAuthor());
+		System.out.println(bk.getPrice());
+		System.out.println(bk.getQtyInStock());
+		
+		
+	}
+}
+
+
